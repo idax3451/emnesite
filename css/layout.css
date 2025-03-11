@@ -1,0 +1,17 @@
+/* Default styles er til mobile first */
+
+/* Tilpas til tablet og større skærme */
+@media (width>=700px) {
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+/* Tilpas til desktop */
+@media (width>=1200px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
