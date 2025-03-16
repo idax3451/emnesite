@@ -1,0 +1,159 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  flex-basis: 70%;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.img-header-logo {
+  display: flex;
+  object-fit: contain;
+  height: 5rem;
+  width: auto;
+  margin-left: 3em;
+  margin-top: 1em;
+}
+
+.img-header-icon {
+  display: flex;
+  object-fit: contain;
+  align-items: right;
+  height: 2rem;
+  width: auto;
+  margin-right: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+@font-face {
+  font-family: h1;
+  src: url(AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: h2;
+  src: url(AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: h3;
+  src: url(Baskervville-Italic.ttf);
+}
+
+@font-face {
+  font-family: p;
+  src: url(Baskervville-Regular.ttf);
+}
+
+@font-face {
+  font-family: nav;
+  src: url(AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: a;
+  src: url(AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: tt-content;
+  src: url(Baskervville-Regular.ttf);
+}
+
+h1 {
+  font-family: h1;
+  font-size: 58px;
+}
+
+h2 {
+  font-family: h2;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: h3;
+  font-size: 26px;
+}
+
+p {
+  font-family: p;
+  font-size: 16px;
+}
+
+nav {
+  font-family: nav;
+  font-size: 16px;
+}
+
+a {
+  font-family: a;
+  font-size: 24px;
+}
+
+.tt-container {
+  color: white;
+}
+
+.tt-content {
+  font-family: tt-content;
+  font-size: 26px;
+}
+
+.os-container {
+  color: white;
+}
+
+a.btn {
+  display: inline-block;
+  background-color: none;
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.tt-container a:hover {
+  color: #6894b7;
+}
+
+.tt-container a:link {
+  color: white;
+}
+
+.tt-container a:visited {
+  color: white;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #6894b7;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 2rem;
+  background-color: #ffffff;
+  flex-basis: 70%;
+  font-family: Baskervville-Regular;
+  src: url(../css/Baskervville-Regular.ttf);
+  color: black;
+}
